@@ -6,20 +6,16 @@ export const siteConfig = {
   navItems: [
 
     {
-      label: "LOCAL",
-      href: "/",
-    },
-    {
       label: "DESCUBRE",
-      href: "/pricing",
+      href: "/descubre",
     },
     {
       label: "CONECTATE",
-      href: "/blog",
+      href: "/conectate",
     },
     {
       label: "IGLESIA EN LINEA",
-      href: "/about",
+      href: "/iglesia-en-linea",
     },
   ],
   navMenuItems: [
@@ -29,19 +25,19 @@ export const siteConfig = {
     },
     {
       label: "DESCUBRE",
-      href: "/projects",
+      href: "/descubre",
     },
     {
       label: "CONECTATE",
-      href: "/team",
+      href: "/conectate",
     },
     {
       label: "IGLESIA EN LINEA",
-      href: "/calendar",
+      href: "/iglesia-en-linea",
     },
     {
       label: "DONACIONES",
-      href: "/calendar",
+      href: "/donaciones",
     },
    
   ],

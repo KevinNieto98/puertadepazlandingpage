@@ -14,12 +14,6 @@ import NextLink from "next/link";
 import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
-import {
-
-  HeartFilledIcon,
-  Logo,
-} from "@/components/icons";
 
 export const Navbar = () => {
 
@@ -28,7 +22,6 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Logo />
             <p className="font-bold text-inherit">PUERTA DE PAZ</p>
           </NextLink>
         </NavbarBrand>
@@ -58,8 +51,7 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2 font-bold">
- 
-          <ThemeSwitch />
+
         </NavbarItem>
         <NavbarItem className="hidden md:flex">
           <Button
