@@ -1,10 +1,16 @@
 import { Carousel } from "@/components";
+import { Horarios } from "@/components/organisms";
 
 export default function Home() {
   return (
     <>
       <Carousel/>
-      <h1>Hola</h1>
+      <div className="items-center justify-center w-screen">
+          <div className=" bg-blue-500">
+            <Horarios/>
+          </div>
+      </div>
+
     </>
   );
 }
